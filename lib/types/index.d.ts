@@ -1,7 +1,4 @@
-export default class QueryService {
-    fetch: any;
-    context: object;
-    constructor(fetch: any);
-    asJson(url: string): any;
-}
+import QueryService from './QueryService';
+declare function extract(jsonld: object[], uri: string): any;
+export { QueryService, extract };
 //# sourceMappingURL=index.d.ts.map

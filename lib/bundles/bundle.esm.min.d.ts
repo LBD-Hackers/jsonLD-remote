@@ -5,4 +5,7 @@ declare class QueryService {
     asJson(url: string): any;
 }
 
-export { QueryService as default };
+declare function extract(jsonld: object[], uri: string): any;
+//# sourceMappingURL=index.d.ts.map
+
+export { QueryService, extract };
