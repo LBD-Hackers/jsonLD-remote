@@ -1,5 +1,5 @@
 {
-  "name": "lbdserver-client-api",
+  "name": "jsonld-remote",
   "version": "0.0.1",
   "description": "",
   "main": "lib/cjs/index.js",
